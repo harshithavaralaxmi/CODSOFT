@@ -23,6 +23,36 @@ Overall, the code provides a simple and interactive Rock, Paper, Scissors game w
 
 
 
+TO-DO-LIST:
 
+
+The provided code is a simple To-Do List application implemented using the Tkinter library in Python. Tkinter is used for creating the graphical user interface (GUI) for the application. The To-Do List allows users to enter tasks, display them in a text area, and delete tasks by specifying the task number.
+
+Here's a breakdown of the code:
+
+GUI Setup:
+
+The GUI window is created with a light green background and a size of 250x300 pixels.
+Labels, entry fields, buttons, and a text area are added to the GUI for different functionalities.
+Functions:
+
+inputError(): Checks if the task entry field is empty and shows an error message if so.
+clear_taskNumberField(): Clears the content of the task number entry field.
+clear_taskField(): Clears the content of the task entry field.
+insertTask(): Inserts a task into the text area, increments the task counter, and clears the task entry field.
+delete(): Deletes a specified task based on the task number, decrements the task counter, and updates the text area.
+Widgets:
+
+Labels: "Enter Your Task" and "Delete Task Number."
+Entry Fields: For entering tasks and specifying task numbers.
+Buttons: "Submit" for adding tasks, "Delete" for deleting tasks, and "Exit" for closing the application.
+Text Area: Displays the list of tasks.
+Grid Layout:
+
+Widgets are arranged in a grid layout to organize their placement in the GUI window.
+Main Loop:
+
+The mainloop() function is called to start the GUI and handle user interactions.
+Overall, the code provides a basic To-Do List application with a user-friendly interface, allowing users to add, view, and delete tasks.
 
 
