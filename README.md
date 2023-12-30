@@ -56,3 +56,37 @@ The mainloop() function is called to start the GUI and handle user interactions.
 Overall, the code provides a basic To-Do List application with a user-friendly interface, allowing users to add, view, and delete tasks.
 
 
+CALCULATOR:
+
+The provided code is a simple calculator application created using the Tkinter library in Python. Tkinter is used to build the graphical user interface (GUI) for the calculator. The calculator supports basic arithmetic operations such as addition, subtraction, multiplication, and division.
+
+Here's a breakdown of the code:
+
+GUI Setup:
+
+The GUI window is created with a title "Calculator-GeeksForGeeks."
+A frame is added to the window with a light blue background and padding.
+An entry widget is created for displaying and entering numerical values.
+Calculator Functions:
+
+The myclick(number) function is used to update the entry field when a number or operator button is clicked.
+The equal() function evaluates the mathematical expression entered in the entry field and displays the result.
+The clear() function clears the content of the entry field.
+Buttons:
+
+Number buttons (0-9) are created to input numerical values.
+Operator buttons (+, -, *, /) are provided for basic arithmetic operations.
+Clear button resets the entry field.
+Equal button calculates and displays the result.
+Grid Layout:
+
+Widgets are arranged in a grid layout within the frame to organize their placement in rows and columns.
+Main Loop:
+
+The mainloop() function is called to start the GUI and handle user interactions.
+Overall, the code implements a straightforward calculator with a user-friendly interface, allowing users to perform basic arithmetic calculations.
+
+
+
+
+
